@@ -11,10 +11,10 @@ import "../styles/index.scss";
 export default function Home({ data }) {
   return (
     <Layout>
-      <SEO title="Welcome to my blog" />
+      <SEO title="Welcome to PDE37" />
       <Jumbotron
-        headline="DensLAB"
-        punchline="Learn Everything &amp; Expand Your Skills."
+        headline="Black Spider PDE37"
+        punchline="Indonesian Airforce PDE Corp."
       />
       <div className="container">
         <h4>Latest Posts</h4>
