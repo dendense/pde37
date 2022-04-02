@@ -18,7 +18,7 @@ const Navigation = (props) => (
             activeClassName="nav-link active"
             to="/bio"
           >
-            Bio
+            Profile
           </Link>
           <Link
             className="nav-link"
