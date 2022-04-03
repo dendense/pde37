@@ -10,11 +10,11 @@ const Layout = ({ children }) => (
     className="dendense-font"
     style={{ minHeight: "100vh", position: "relative" }}
   >
-    <Nav brand="PDE37" />
+    <Nav brand="DENDENSE" />
     <div className="container-fluid" style={{ padding: "1rem" }}>
       {children}
     </div>
-    <Footer copyright="PDE37" />
+    <Footer copyright="Deny Farras Febriyanto" />
   </div>
 );
 
