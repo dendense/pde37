@@ -27,13 +27,6 @@ const Navigation = (props) => (
           >
             Project
           </Link>
-          <Link
-            className="nav-link"
-            activeClassName="nav-link active"
-            to="/pde37"
-          >
-            PDE37
-          </Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
