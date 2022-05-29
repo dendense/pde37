@@ -15,6 +15,12 @@ module.exports = {
   plugins: [
     "gatsby-plugin-sass",
     {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "static/favicon.png",
+      },
+    },
+    {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "UA-106476104-3",
