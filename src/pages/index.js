@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import SEO from "../components/Seo";
+import Seo from "../components/Seo";
 import Layout from "../components/Layout";
 import PostsCard from "../components/PostsCard";
 import Jumbotron from "../components/Jumbotron";
@@ -11,12 +11,12 @@ import "../styles/index.scss";
 export default function Home({ data }) {
   return (
     <Layout>
-      <SEO title="Welcome to DENDENSE" />
+      <Seo title="Welcome to DENDENSE" />
       <Jumbotron
         headline="Deny Farras Febriyanto"
-        punchline="Indonesian Airforce 37th PDE Corp."
+        punchline="Proudly Indonesian Airforce"
       />
-      <div className="container">
+      <div className="container-fluid">
         <h4>Latest Posts</h4>
         <PostsCard data={data.allMarkdownRemark.nodes} col={4} />
       </div>

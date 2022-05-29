@@ -1,12 +1,18 @@
 ---
 type: bio
 path: /bio
-title: Get in Touch!
+title: Let me Introduce Myself
 image: https://i.ibb.co/1sd1kFN/PDE37.png #Square Image Profile
 fullname: Deny Farras Febriyanto
 email: denyfarras@gmail.com
-websitename: Github
-website: https://github.com/dendense
+github: dendense
+website: https://dendense.com/
+specs: Frontend Developer
+address: Bandung, West Java, Indonesia
+phone: Request by Email
+rank: 2nd Sergeant
+instagram: deny_desu
+pde: pde_37
 ---
 
 ## Little Things Me

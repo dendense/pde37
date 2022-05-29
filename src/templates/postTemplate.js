@@ -4,7 +4,7 @@ import { Disqus, CommentCount } from "gatsby-plugin-disqus";
 
 import "../styles/index.scss";
 import { slugify } from "../utils/utilityFunction";
-import SEO from "../components/Seo";
+import Seo from "../components/Seo";
 import Layout from "../components/Layout";
 import Sidebar from "../parts/Sidebar";
 
@@ -22,7 +22,7 @@ export default function postTemplate({ data }) {
   return (
     <div>
       <Layout>
-        <SEO title={title} keyword={(title, tags)} />
+        <Seo title={title} keyword={(title, tags)} />
         <div className="row post-body">
           <div className="col-md-8">
             <div className="post-bar">

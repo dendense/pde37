@@ -1,21 +1,21 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React from "react";
+import { graphql } from "gatsby";
 
-import SEO from "../components/Seo"
-import Layout from "../components/Layout"
-import PostsCard from "../components/PostsCard"
+import Seo from "../components/Seo";
+import Layout from "../components/Layout";
+import PostsCard from "../components/PostsCard";
 
 export default function tagTemplate({ data, pageContext }) {
-  const { tags } = pageContext
+  const { tags } = pageContext;
   return (
     <Layout>
-      <SEO title={"Tags " + tags} keyword={tags} />
+      <Seo title={"Tags " + tags} keyword={tags} />
       <div className="container-fluid">
         <h1>Post with tags "{tags}"</h1>
         <PostsCard data={data.allMarkdownRemark.nodes} col={4} />
       </div>
     </Layout>
-  )
+  );
 }
 export const tagsQuery = graphql`
   query TagPosts($tags: String!) {
@@ -36,4 +36,4 @@ export const tagsQuery = graphql`
       }
     }
   }
-`
+`;
