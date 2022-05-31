@@ -48,6 +48,7 @@ Nantinya akan muncul link lokal yang dapat anda akses dengan browser kesayangan 
 
 # Update Pool
 
+- (29/05/2022) Update Pofile Page, Posts Utilities Added
 - (21/12/2021) Change Jumbotron Component to Simple Utilities Component
 - (20/12/2021) Update Bootstrap Version to v5.1
 - (20/12/2021) Update React-Bootstrap Version to v2.0.3
