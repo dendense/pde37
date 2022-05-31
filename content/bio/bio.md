@@ -15,10 +15,6 @@ instagram: deny_desu
 pde: pde_37
 ---
 
-## Little Things Me
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 ## Quotes
 
 Sometimes it is the people no one can imagine anything of who do the things no one can imagine.
