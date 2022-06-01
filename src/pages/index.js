@@ -11,9 +11,9 @@ import "../styles/index.scss";
 export default function Home({ data }) {
   return (
     <Layout>
-      <Seo title="Welcome to DENDENSE" />
+      <Seo title="DENDENSE" />
       <Jumbotron
-        headline="Deny Farras Febriyanto"
+        headline="DENDENSE"
         punchline="Proudly Indonesian Airforce"
         jumbcolor="dark"
       />

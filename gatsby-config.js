@@ -1,9 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://github.com/dendense",
-    title: "DensLAB",
-    description: `Tech & Multimedia, Expand Your Skills Experience!`,
-    siteUrl: `https://github.com/dendense`,
+    siteUrl: "https://dendense.com/",
+    title: "DENDENSE",
+    description: `Proudly Indonesian Airforce`,
     author: {
       name: `DENDENSE`,
       summary: `Create & Develop Something`,
