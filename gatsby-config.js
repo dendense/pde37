@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://dendense.com/",
-    title: "DENDENSE",
+    title: "DensLAB",
     description: `Proudly Indonesian Airforce`,
     author: {
       name: `DENDENSE`,
