@@ -33,8 +33,10 @@ export default function bioTemplate({ data }) {
                 <img
                   src={image}
                   className="rounded-circle"
+                  style={{ objectFit: "cover" }}
                   alt="DENDENSE"
                   width={150}
+                  height={150}
                 />
                 <div className="mt-3">
                   <h4>DENDENSE</h4>
@@ -108,6 +110,7 @@ export default function bioTemplate({ data }) {
           </div>
         </div>
         <div className="col-md-8">
+          <h4>Little Things About Me</h4>
           <div className="card mb-3">
             <div className="card-body">
               <div className="row">

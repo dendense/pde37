@@ -2,7 +2,7 @@
 type: bio
 path: /bio
 title: Let me Introduce Myself
-image: https://i.ibb.co/1sd1kFN/PDE37.png #Square Image Profile
+image: https://i.ibb.co/rwtfX17/IMG-1016.jpg #Square Image Profile
 fullname: Deny Farras Febriyanto
 email: denyfarras@gmail.com
 github: dendense

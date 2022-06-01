@@ -6,19 +6,17 @@ import Layout from "../components/Layout";
 import PostsCard from "../components/PostsCard";
 import Jumbotron from "../components/Jumbotron";
 
-import "../styles/index.scss";
-
-export default function Home({ data }) {
+export default function Photography({ data }) {
   return (
     <Layout>
-      <Seo title="Welcome to DENDENSE" />
+      <Seo title="Photography" />
       <Jumbotron
-        headline="Deny Farras Febriyanto"
-        punchline="Proudly Indonesian Airforce"
-        jumbcolor="dark"
+        headline="Photography"
+        punchline="There's Love in Every Snap."
+        jumbcolor="primary"
       />
-      <div className="container-fluid">
-        <h4>Latest Posts</h4>
+      <div className="container">
+        <h4>Latest Shots</h4>
         <PostsCard data={data.allMarkdownRemark.nodes} col={4} />
       </div>
     </Layout>
@@ -26,10 +24,10 @@ export default function Home({ data }) {
 }
 
 export const IndexQuery = graphql`
-  query Boilerplate {
+  query Photography {
     allMarkdownRemark(
       sort: { order: DESC, fields: frontmatter___date }
-      filter: { frontmatter: { type: { eq: "blog" } } }
+      filter: { frontmatter: { type: { eq: "photography" } } }
     ) {
       nodes {
         frontmatter {
