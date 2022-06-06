@@ -1,15 +1,14 @@
 ---
 type: photography
-path: /photography/firstroll
-title: BOEN 250D
+path: /photography/himalaya200
+title: Himalaya 200
 author: SakuMyao
-date: 2020-12-04T14:40:55.870Z
+date: 2022-06-06T09:13:39.908Z
 description: Captured by Canon FTQL + 50mm F1.2 Canon Lens
 tags:
   - vintage
-  - boen
+  - himalaya
   - canon
-image: https://i.ibb.co/Kr4vNjV/img-pc-09.jpg
+image: https://i.ibb.co/PxZMJh2/HCL994.jpg
 ---
-
-# User Terdaftar
+1st Captured by Himalaya 200 Roll Film
