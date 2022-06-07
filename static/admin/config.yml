@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: master
   repo: dendense/pde37
 
   commit_messages:
