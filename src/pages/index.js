@@ -17,7 +17,7 @@ export default function Home({ data }) {
         punchline="Proudly Indonesian Airforce"
         jumbcolor="dark"
       />
-      <div className="container-fluid">
+      <div className="container">
         <h4>Latest Posts</h4>
         <PostsCard data={data.allMarkdownRemark.nodes} col={4} />
       </div>
