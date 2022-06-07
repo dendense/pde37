@@ -52,7 +52,11 @@ export default function postTemplate({ data }) {
               <div style={{ marginTop: "2rem" }}>
                 Tags :{" "}
                 {tags.map((tag) => (
-                  <div className="mr-1 d-inline-flex" key={tag}>
+                  <div
+                    className="d-inline-flex"
+                    style={{ marginRight: "0.1rem" }}
+                    key={tag}
+                  >
                     <Link to={`/tag/${slugify(tag)}`}>
                       <span className="badge bg-primary text-uppercase">
                         {tag}
