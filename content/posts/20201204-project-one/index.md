@@ -1,14 +1,14 @@
 ---
 type: photography
-path: /photography/himalaya200
-title: Himalaya 200
+path: /photography/braga
+title: Welcome to Braga
 author: SakuMyao
 date: 2022-06-06T09:13:39.908Z
 description: Captured by Ricoh KR-5 + 50mm F2.0 Rikenon Lens
 tags:
-  - vintage
   - himalaya
-  - canon
+  - ricoh
+  - bandung
 image: https://i.ibb.co/PxZMJh2/HCL994.jpg
 ---
 1st Captured by Himalaya 200 Roll Film. The roll film was developed by [Hipercatlab](https://www.instagram.com/hipercatlab) with Noritsu Scanner. 
