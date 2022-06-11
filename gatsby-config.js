@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://dendense.com/",
-    title: "DensLAB",
+    siteUrl: `https://dendense.com/`,
+    title: `DensLAB`,
     description: `Proudly Indonesian Airforce`,
     author: {
       name: `DENDENSE`,
@@ -13,6 +13,13 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        output: "/",
+        excludes: ["*/admin/*"],
+      },
+    },
     {
       resolve: "gatsby-plugin-manifest",
       options: {
