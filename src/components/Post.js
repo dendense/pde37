@@ -5,7 +5,7 @@ import { Card } from "react-bootstrap";
 import { slugify, truncate } from "../utils/utilityFunction";
 import "../styles/index.scss";
 
-const Post = ({ title, author, date, description, path, image, tags }) => (
+const Post = ({ title, date, description, path, image, tags }) => (
   <Card>
     <Card.Img
       variant="top"
