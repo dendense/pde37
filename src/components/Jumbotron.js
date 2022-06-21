@@ -1,6 +1,5 @@
 import React from "react";
 import ThemeSwitch from "../components/ThemeSwitch";
-import React from "../components/ThemeSwitch";
 
 import "../styles/index.scss";
 
