@@ -1,8 +1,6 @@
 import React from "react";
 import ThemeSwitch from "../components/ThemeSwitch";
 
-import "../styles/index.scss";
-
 const Jumbotron = ({ headline, punchline, jumbcolor }) => (
   <div className={`p-5 mb-4 bg-${jumbcolor} text-white rounded-3`}>
     <div className="container-fluid py-5">

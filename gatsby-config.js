@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://dendense.com/`,
-    title: `DensLAB`,
-    description: `Proudly Indonesian Airforce`,
+    siteUrl: "https://dendense.com/",
+    title: "DensLAB",
+    description: "Proudly Indonesian Airforce",
     author: {
-      name: `DENDENSE`,
-      summary: `Create & Develop Something`,
+      name: "DENDENSE",
+      summary: "Create & Develop Something",
     },
     social: {
-      instagram: `deny_desu`,
+      instagram: "deny_desu",
     },
   },
   plugins: [

@@ -1,25 +1,19 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import Seo from "../components/Seo";
+import Layout from "../components/Layout";
+import Jumbotron from "../components/Jumbotron";
+import "../styles/index.scss";
 
-const notfound = () => (
-  <div className="d-flex align-items-center mt-3">
-    <Seo title="Page Not Found" />
-    <div className="container d-flex flex-column">
-      <div className="d-flex justify-content-center">
-        <img src="https://i.ibb.co/yVr4pnk/5.png" alt="404 Not Found" />
-      </div>
-      <div className="d-flex justify-content-center">
-        <h2>This Page is Lost in Space</h2>
-      </div>
-      <div className="d-flex justify-content-center">
-        <Link to="/" className="btn btn-primary">
-          Back to Home
-        </Link>
-      </div>
-    </div>
-  </div>
-);
-
-export default notfound;
+export default function vectorart() {
+  return (
+    <Layout>
+      <Seo title="404 Not Found" />
+      <Jumbotron
+        headline="404 Page Not Found"
+        punchline="Lost in Space"
+        jumbcolor="danger"
+      />
+    </Layout>
+  );
+}
