@@ -4,13 +4,13 @@ import { THEME_LIST } from "../configs/themeConfig";
 import { titleCase } from "../utils/utilityFunction";
 
 export default function ThemeSwitch() {
-  const [activeTheme, setActiveTheme] = useState("default");
+  const [activeTheme, setActiveTheme] = useState('default');
 
   useEffect(() => {
     let currentTheme =
       document.body.className.replace("theme-", "") ||
       localStorage.getItem("theme");
-
+  
     if (currentTheme && THEME_LIST.includes(currentTheme)) {
       document.body.className = `theme-${currentTheme}`;
     } else {

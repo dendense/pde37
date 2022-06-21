@@ -6,11 +6,17 @@ const slugify = function (text) {
     .replace(/[^\w-]+/g, "") // Remove all non-word chars
     .replace(/--+/g, "-") // Replace multiple - with single -
     .replace(/^-+/, "") // Trim - from start of text
-    .replace(/-+$/, "") // Trim - from end of text
-}
+    .replace(/-+$/, ""); // Trim - from end of text
+};
 
 const truncate = function (text, length) {
-  return `${text.slice(0, length)}${text.length > length ? "..." : ""}`
+  return `${text.slice(0, length)}${text.length > length ? "..." : ""}`;
+};
+
+function titleCase(str) {
+  return str?.replace(/\w\S*/g, function (txt) {
+    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+  });
 }
 
-module.exports = { slugify, truncate }
+module.exports = { slugify, truncate, titleCase };
